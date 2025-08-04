@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Muchuu 🐸💚</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<!-- 🌙 WAITING SCREEN UNTIL AUG 5, 12:00 AM -->
+<div id="waiting-screen" class="center">
+  <img src="images/frog_wait1.gif" class="left-frog" />
+  <div>
+    <h1>Shhh... It's not time yet 💤</h1>
+    <p>Come back at 12:00 AM</p>
+    <div id="countdown"></div>
+  </div>
+  <img src="images/frog_wait2.gif" class="right-frog" />
+</div>
+
+<!-- 🎁 REVEAL SCREEN -->
+<div id="reveal-screen" class="center hidden">
+  <img src="images/frog_excited1.gif" class="frog-img" />
+  <h2>Are you ready for your surprise, Muchuu? 🐸🎁</h2>
+  <img src="images/frog_excited2.gif" class="frog-img" />
+  <button onclick="showMainPage()">YES, I’M READY!</button>
+</div>
+
+<!-- 📖 MAIN SCRAPBOOK PAGE -->
+<div id="main-content" class="hidden">
+  <div class="background">
+
+    <!-- Sticky Notes on both sides -->
+    <div class="sticky-notes-container">
+      <div class="note yellow" style="top: 150px; left: 20px; transform: rotate(-4deg);">
+        May Allah help you in every field of life! Ameen 💜
+      </div>
+
+      <div class="note pink" style="top: 400px; left: 30px; transform: rotate(3deg);">
+        May Allah bless you with whatever you Want Ameen 🧡
+      </div>
+
+      <div class="note green" style="top: 80px; right: 30px; transform: rotate(4deg);">
+        May Allah Keep you smiling and Happy Ameen🤍
+      </div>
+
+      <div class="note blue" style="top: 220px; right: 40px; transform: rotate(-3deg);">
+        May Allah give you Success in this World and Hereafter Ameen 💛
+      </div>
+    </div>
+
+      <!--centre Scrapbook-->
+    <div class="center scrapbook">
+      <h1>Happy Birthdayyy Muchuu 🧡</h1>
+
+        <!-- 🐸 Frog Stickers -->
+<img src="images/frog_peek.gif" class="corner-sticker" style="top: 40px; left: 10px;" />
+<img src="images/frog_heart.gif" class="corner-sticker" style="bottom: 30px; right: 20px;" />
+<img src="images/frog_dance.gif" class="corner-sticker" style="top: 300px; left: 40px;" />
+<img src="images/frog_kiss.gif" class="corner-sticker" style="bottom: 180px; right: 180px;" />
+
+
+      <!-- Floating Hearts -->
+      <div class="floating-hearts">
+        <span>💗</span>
+        <span>💖</span>
+        <span>💞</span>
+        <span>💘</span>
+      </div>
+
+      <!-- Sliding Frog GIF -->
+      <img src="images/frog_slide.gif" class="slide-frog" />
+
+      <!-- Polaroid Photos -->
+      <div class="photo-grid">
+  <div class="photo-wrapper">
+    <img class="polaroid" src="images/photo1.png" alt="photo1" />
+    <img src="images/paperclip.png" class="clip clip-left" />
+  </div>
+  <div class="photo-wrapper">
+    <img class="polaroid" src="images/photo2.png" alt="photo2" />
+    <img src="images/paperclip.png" class="clip clip-right" />
+  </div>
+</div>
+
+
+      <!-- Pink handwritten Notes -->
+      <div class="note pink">Sta muska de laka spogmai, tal roshana we 🌙🤍</div>
+      <div class="note pink">Sta makh de tal da noor ao guluno rana we✨🌸🌻</div>
+
+      <!-- 👀 Sticky Notes -->
+    
+
+      <!-- Final Surprise Message 
+      <div class="letter-container">
+        <div class="letter-card">
+          <div class="letter-front">💌 Tap to open</div>
+          <div class="letter-back">My dearest Muchu, you mean the world to me... 🐸💕</div>
+        </div>
+      </div>
+    -->
+
+      <!-- 📨 Mini Surprise Envelope -->
+<div class="mini-letter" onclick="this.classList.toggle('open')">
+  <div class="front">💌 Tap for more</div>
+  <div class="inside">Khudai de tal khushala, rawn, ao gulzar wasati🌷🌼</div>
+</div>
+
+<div class="mini-letter right-side" onclick="this.classList.toggle('open')">
+  <div class="front">💌 Tap for more</div>
+  <div class="inside">Tal de pa makh khushali, ao pa zra ke sukoon we🌺🌼</div>
+</div>
+
+
+
+      <!-- ❤️ Heart Doodles -->
+<img src="images/heart_doodle.png" class="floating-doodle heart-doodle" style="top: 150px; right: 50px; transform: rotate(12deg);" />
+<img src="images/heart_doodle.png" class="floating-doodle heart-doodle" style="bottom: 170px; left: 10px; transform: rotate(20deg);" />
+<img src="images/heart_doodle.png" class="floating-doodle heart-doodle" style="bottom: 150px; right: 20px; transform: rotate(-10deg);" />
+
+<!-- 🌟 Star Doodles -->
+<img src="images/star_doodle.png" class="floating-doodle star-doodle" style="top: 250px; left: 80px; transform: rotate(8deg);" />
+<img src="images/star_doodle.png" class="floating-doodle star-doodle" style="top: 320px; right: 90px; transform: rotate(-12deg);" />
+
+<!-- 🌠 Shooting Stars -->
+<img src="images/shooting_star_doodle.png" class="floating-doodle shooting-star-doodle" style="top: 80px; left: 200px; transform: rotate(15deg);" />
+
+
+    </div> <!-- end scrapbook -->
+  </div> <!-- end background -->
+</div> <!-- end main-content -->
+
+<!-- 🎵 Audio -->
+<audio src="audio/birthday-short.mp3" autoplay loop style="display: none;"></audio>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+ 
+</body>
+</html>
